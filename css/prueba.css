@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1b0b35;
+    color: white;
+}
+
+.header {
+    background-color: #5e37b7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: left;
+}
+#gengar{
+    position: relative;
+    left: 1200px;
+    top: -280px
+}
+/*alineacion de informacion*/

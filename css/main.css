@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/1.jpg");
+    /*Fondo de la pagina*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Header*/
+header p {
+    color: white;
+    padding: 20px;
+    position: relative;
+    right: 100px;
+}
+
+
+.logo p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Estilos de la seccion Main*/
+
+.content {
+    display: flex;
+}
+
+.left {
+    width: 35%;
+    color: white;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.right {
+    width: 35%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+}
+
+/*Footer*/
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.button button {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}

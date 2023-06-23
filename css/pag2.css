@@ -1,0 +1,79 @@
+h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1b0b35;
+    color: white;
+}
+
+.header {
+    background-color: #5e37b7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: left;
+}
+#Home{
+    background-color: black;
+    color: white;
+    width: 5%;
+}
+#gengar{
+    position: relative;
+    left: 1200px;
+    top: -280px
+}
+.body1{
+    text-align: left;
+    position: relative;
+    top: -820px;
+    padding: 500px;
+}
+.body2{
+    text-align: center;
+    position: relative;
+    top: -1550px;
+}
+.body3{
+    text-align: right;
+    position: relative;
+    top: -2250px;
+    padding: 500px;
+}
+
+#img-evolucion{
+    background-color: #5e37b7;
+
+}
+
+.images{
+    display: flex;
+
+}
+.container-pkm-evolution{
+    flex: 0 0 20%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-pkm-evolution h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+.container-pkm-evolution img{
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+}
